@@ -5,6 +5,10 @@ def draw_square():
     window.bgcolor("green")
     
     haris = turtle.Turtle()
+    haris.shape("turtle")
+    haris.color("blue")
+    haris.speed(1)
+    
     haris.forward(100)
     haris.right(90)
     haris.forward(100)
