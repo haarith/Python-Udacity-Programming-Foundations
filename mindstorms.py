@@ -18,6 +18,10 @@ def draw_square():
     haris.forward(100)
     haris.right(90)
 
+    beg = turtle.Turtle()
+    beg.shape("arrow")
+    beg.circle(100)
+
     window.exitonclick()
 
 
