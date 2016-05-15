@@ -20,6 +20,7 @@ def draw_square():
 
     beg = turtle.Turtle()
     beg.shape("arrow")
+    beg.color("red")
     beg.circle(100)
 
     window.exitonclick()
