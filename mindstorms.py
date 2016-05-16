@@ -1,23 +1,22 @@
 import turtle
 
-def draw_square():
+def draw_square(some_turtle):
+    for i in range(1,5):
+        some_turtle.forward(100)
+        some_turtle.right(90)
+
+def draw_art():
     window = turtle.Screen()
     window.bgcolor("green")
-    
+
+    #Create the turtle Haris - draws a square
     haris = turtle.Turtle()
     haris.shape("turtle")
     haris.color("blue")
     haris.speed(1)
+    draw_square(haris)
     
-    haris.forward(100)
-    haris.right(90)
-    haris.forward(100)
-    haris.right(90)
-    haris.forward(100)
-    haris.right(90)
-    haris.forward(100)
-    haris.right(90)
-
+    #Create the turtle Beg - draws a circle
     beg = turtle.Turtle()
     beg.shape("arrow")
     beg.color("red")
@@ -25,5 +24,4 @@ def draw_square():
 
     window.exitonclick()
 
-
-draw_square()
+draw_art()
