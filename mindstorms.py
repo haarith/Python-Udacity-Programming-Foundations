@@ -13,14 +13,16 @@ def draw_art():
     haris = turtle.Turtle()
     haris.shape("turtle")
     haris.color("blue")
-    haris.speed(1)
-    draw_square(haris)
+    haris.speed(50)
+    for i in range(0,360):
+        draw_square(haris)
+        haris.right(1)
     
     #Create the turtle Beg - draws a circle
-    beg = turtle.Turtle()
-    beg.shape("arrow")
-    beg.color("red")
-    beg.circle(100)
+##    beg = turtle.Turtle()
+##    beg.shape("arrow")
+##    beg.color("red")
+##    beg.circle(100)
 
     window.exitonclick()
 
