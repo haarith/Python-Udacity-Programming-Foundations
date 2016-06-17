@@ -4,10 +4,14 @@ toy_story = media.Movie("Toy Story", "A story of a boy and his toys", "http://up
 
 #print(toy_story.storyline)
 
-avatar = media.Movie("Avatar", "A marine on an alien planet", "https://en.wikipedia.org/wiki/File:Avatar-Teaser-Poster.jpg", "https://www.youtube.com/watch?v=uZNHIU3uHT4")
+avatar = media.Movie("Avatar", "A marine on an alien planet", "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg", "https://www.youtube.com/watch?v=uZNHIU3uHT4")
 #print(avatar.storyline)
 #avatar.show_trailer()
 
-unforgettable = media.Movie("Unforgettable", "Korean Movie 순정 (Unforgettable, 2016) 예고편", "poster_image_url", "https://www.youtube.com/watch?v=uWO7qWAWpGY")
-print(unforgettable.storyline)
-unforgettable.show_trailer()
+school_of_rock = media.Movie("School of Rock", "Korean Movie 순정 (Unforgettable, 2016) 예고편", "https://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg", "https://www.youtube.com/watch?v=uWO7qWAWpGY")
+
+ratatouille = media.Movie("Ratatouille", "A rat is a chef in Paris", "https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg", "https://www.youtube.com/watch?v=c3sBBRxDAqk")
+
+midnight_in_paris = media.Movie("Midnight in Paris", "Going back in time to meet authors", "https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg", "https://www.youtube.com/watch?v=wuOUdZjuCIA")
+
+hunger_games = media.Movie("Hunger Games", "A really real reality show", "https://upload.wikimedia.org/wikipedia/en/4/4b/Hunger_Games_Film_Poster.jpg", "https://www.youtube.com/watch?v=qoUT7q2iTbQ")
